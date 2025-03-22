@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<style>
+		body {
+			background-image: url('bg_image.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100vh;
+		}
+		#banner_image {
+			position: relative;
+			top: -30px;
+			width: 100%;
+			
+		}
+		#banner {
+			height: 20vh;
+			width: 100vw;
+		}
+		button {
+			background-color: #ffffff00;
+			border: none;
+			position: fixed;
+			top: 30vh;
+			left: 130px;
+		}
+		#image {
+			width: 120%;
+		}
+		#sticker {
+			position: fixed;
+			width: 44%;
+		}
+		p {
+		font-family: Times New Roman;
+		font-size: 33px;
+		color: white;
+		position: fixed;
+		top: 96.5vh;
+		left: 63vw;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="banner">
+		<center>
+			<img id="banner_image" src="minecraft_banner.png">
+		</center>
+		</div>
+			<img id="sticker" src="click_me.png">
+		<audio id="bg_music" loop>
+			<source src="bg_music.mp3" type="audio/mpeg">
+		</audio>
+
+		<button onclick="document.getElementById('bg_music').currentTime = 36; document.getElementById('bg_music').play();">
+			<img id="image" src="minecraft_enderman.png"/>
+		</button>
+		<p>By Yachne Quincy C. Nim </p>
+	</body>
+</html>
